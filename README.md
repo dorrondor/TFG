@@ -1,1 +1,2 @@
 # TFG
+Karpetak sortzen asmatu ez dudanez bi branch sortu ditut, main eta en-desarrollo, lehenean main-a, main-ak deitzen dien programa guztiak eta konpilatu.sh daude. en-desarrollon add-rule-filter (hau da arau osoak geitzeko aukera ematen duena, ondorioz arazoak ematen dituena) eta hau konpilatzeko konpilatu.sh scripta daude (ez dakit zergaitik beste fitxategi guztiekin batera). Main-eko deiak txapuzero xamar daude baina tita batean jarri daitezke ondo eta behin dena eginda daukadanean egingo dut.
