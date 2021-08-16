@@ -65,7 +65,7 @@ int addTab(int argc, char *argv[])
 	int ret;
 
 	if (argc != 3) {
-		fprintf(stderr, "%s <family> <name>\n", argv[0]);
+		fprintf(stderr, "%s <family> <name> %d\n", argv[0], argc);
 		exit(EXIT_FAILURE);
 	}
 
