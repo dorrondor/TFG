@@ -1,0 +1,14 @@
+[Unit]
+Description=Mainaren daemona
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=DarthDorron
+ExecStart=/usr/bin/env .//home/DarthDorron/Desktop/TFG/Definitiboa/main
+
+[Install]
+WantedBy=multi-user.target 
