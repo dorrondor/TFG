@@ -8,6 +8,11 @@ Bezeroak bidaltzen dion komandoaren bidez deitu beharreko funtzioari deituko dio
 Maina exekutatzeko sudo ./main exekutatu beharko da.
 Konpilatzeko nahikoa da konpilatu.sh exekutatzea [./konpilatu.sh].
 
+Daemon:
+Maina bigarren gerezuan exekuzioan jartzen du.
+Lehenik eta behin daemon izeneko fitxategia etc/init.d karpetan gorde beharko da. Ondoren chmod +x eginez exekuzio baimenak eman.
+Martxan jartzeko service daemon start exekutatu beharko da terminalean. Ondoren terminal hori itxi ahalko da eta beste batean bezeroa exekutatuz dena martxan jarriko da.
+
 Komandoak:
 addTab <family> <table>
 remTab <family> <table>

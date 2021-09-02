@@ -1,0 +1,28 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides: daemona          
+# Required-Start:
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:	     
+# Short-Description: 
+# Description: 
+### END INIT INFO
+
+start(){
+    .//home/DarthDorron/Desktop/TFG/Definitiboa/main
+}
+
+case "$1" in
+start)
+    start
+    ;;
+stop)
+    ;;
+restart)
+    start
+    ;;
+*)
+    echo "Usage: $0 {start|stop|restart}"
+	;;
+esac
