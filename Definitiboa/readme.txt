@@ -11,7 +11,9 @@ Konpilatzeko nahikoa da konpilatu.sh exekutatzea [./konpilatu.sh].
 Daemon:
 Maina bigarren gerezuan exekuzioan jartzen du.
 Lehenik eta behin daemon izeneko fitxategia etc/init.d karpetan gorde beharko da. Ondoren chmod +x eginez exekuzio baimenak eman.
-Martxan jartzeko service daemon start exekutatu beharko da terminalean. Ondoren terminal hori itxi ahalko da eta beste batean bezeroa exekutatuz dena martxan jarriko da.
+Daemonean start() funtzioan main exekutagarrirako path-a aldatu beharko da.
+Martxan jartzeko service daemon start exekutatu beharko da terminalean. 
+Ondoren terminal hori itxi ahalko da eta beste batean bezeroa exekutatuz dena martxan jarriko da.
 
 Komandoak:
 addTab <family> <table>
